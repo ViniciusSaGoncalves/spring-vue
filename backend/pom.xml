@@ -67,14 +67,14 @@
 							<goal>copy-resources</goal>
 						</goals>
 						<configuration>
-							<outputDirectory>src/main/resources/public</outputDirectory>
+							<outputDirectory>src/main/resources/static/contabil</outputDirectory>
 							<overwrite>true</overwrite>
 							<resources>
 								<resource>
 									<directory>${project.parent.basedir}/contabil-vue/dist</directory>
 									<includes>
 										<include>assets/</include>
-										<include>index.html</include>
+<!--										<include>index.html</include>-->
 										<include>index.js</include>
 										<include>favicon.ico</include>
 									</includes>

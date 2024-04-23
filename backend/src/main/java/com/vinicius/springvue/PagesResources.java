@@ -12,8 +12,13 @@ public class PagesResources {
 //        return "Hello World";
 //    }
 
-    @GetMapping
+    @GetMapping()
     public ModelAndView home() {
+        return new ModelAndView("/home/index.html");
+    }
+
+    @GetMapping("/contabil/")
+    public ModelAndView contabil() {
         return new ModelAndView("/contabil/index.html");
     }
 }
