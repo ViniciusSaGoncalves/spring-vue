@@ -19,8 +19,8 @@
 		<main.basedir>${project.basedir}</main.basedir>
 	</properties>
 	<modules>
-		<module>backend</module>
 		<module>contabil-vue</module>
+		<module>backend</module>
 	</modules>
 
 	<build>

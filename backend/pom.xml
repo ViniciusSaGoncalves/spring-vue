@@ -71,10 +71,11 @@
 							<overwrite>true</overwrite>
 							<resources>
 								<resource>
-									<directory>${project.parent.basedir}/contabil-vue/target/dist</directory>
+									<directory>${project.parent.basedir}/contabil-vue/dist</directory>
 									<includes>
-										<include>static/</include>
+										<include>assets/</include>
 										<include>index.html</include>
+										<include>index.js</include>
 										<include>favicon.ico</include>
 									</includes>
 								</resource>
